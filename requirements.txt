@@ -1,4 +1,1 @@
 telepot
-sys
-time
-pprint
