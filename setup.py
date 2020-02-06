@@ -65,7 +65,7 @@ class Calculator(telepot.helper.ChatHandler):
                 self.sender.sendMessage("Il tuo metabolismo basale è di "+str(self._meta)+" kcal")               
                 
 
-        self.close()
+        self.__init__()
                 
             
 
