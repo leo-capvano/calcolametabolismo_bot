@@ -117,7 +117,7 @@ class Calculator(telepot.helper.ChatHandler):
 bot = telepot.DelegatorBot("1005610092:AAHU9mg1-_qb7VB0SJ8XPtUN4CUaIPDjLwM", [
     include_callback_query_chat_id(
         pave_event_space())(
-            per_chat_id(types=['private']), create_open, Calculator, timeout=20),
+            per_chat_id(types=['private']), create_open, Calculator, timeout=333),
 ])
 MessageLoop(bot).run_as_thread()
 
